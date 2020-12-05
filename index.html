@@ -33,6 +33,14 @@
 <link href="phenom/Thin/stylesheet.css" rel="stylesheet">
 <link href="phenom/Bold/stylesheet.css" rel="stylesheet">
 
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+
+<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'  type='text/css'>
+
+
 <!-- SCRIPTS
   ================================================== -->
 <script src="js/modernizr.js"></script><!-- Modernizr -->
@@ -79,7 +87,7 @@
     margin-bottom: 0;
 }
 .inner-wrapper {
-    max-width: 48.05556rem;
+    /* max-width: 48.05556rem; */
     margin: 0 auto;
 }
 .page-insights-landing .subscribe-publications {
@@ -194,6 +202,14 @@ subscribe-publications .call-to-action {
     filter: blur(10px);
 }
 
+@media (min-width: 768px){
+    .modal-dialog {
+        width: 1250px;
+        margin: 30px auto;
+    }
+}
+   
+
 </style>
 </head>
 
@@ -236,7 +252,7 @@ subscribe-publications .call-to-action {
                         <div class="ititle" >Call Us</div>
                             
                 <!--<strong>+91-9910432903/</br>contact@rpla.co.in</strong>-->
-                <strong>9910432903</strong>
+                <div style="font-weight: bold;" >9910432903</div>
                     </li>
 					
 					<li style="font-family: 'Adriatic_light'; font-style: normal;">
@@ -245,16 +261,22 @@ subscribe-publications .call-to-action {
                         <div class="ititle" >Mail Us</div>
                             
                 <!--<strong>+91-9910432903/</br>contact@rpla.co.in</strong>-->
-                <strong>contact@rpla.co.in</strong>
+                <div style="text-transform: lowercase; font-weight: bold;" >contact@rpla.co.in</div>
                     </li>
 					
                 	<li style="font-family: 'Adriatic_light'; font-style: normal;">
-                    	<i class="fa fa-map-signs"></i>
-                        <!--<div class="ititle">Address</div>-->
-                        <div class="ititle" >Address</div>
-                       <!--- <strong>O-27A, First Floor, Jangpura Extension, New Delhi - 110014</strong>-->
-                       <strong >O-27A, First Floor, Jangpura Extension, New Delhi - 110014, India</strong>
-                        
+                    <div style="display: flex;" >
+                            <i class="fa fa-map-signs"></i>
+                            <!--<div class="ititle">Address</div>-->
+
+                            <div>
+                                <div class="ititle" >Address</div>
+                                <!--- <strong>O-27A, First Floor, Jangpura Extension, New Delhi - 110014</strong>-->
+                                <div style="text-transform: capitalize; font-weight: bold;"  >O-27A, First Floor, Jangpura Extension, New Delhi - 110014, India</div>
+        
+                            </div>
+
+                        </div>                        
                         </li>
                 	<!--<li>
                     	<i class="fa fa-clock-o"></i>
@@ -269,12 +291,12 @@ subscribe-publications .call-to-action {
                     <ul class="dd-menu sf-menu">
                        
                       <!-- <li style="font-family: 'Adriatic_light'; font-style: normal; letter-spacing: 0.102em;"><a href="index.html">Home</a>-->
-                        <li style="font-family: 'Adriatic_light'; font-style: normal;"><a href="#">OUR LEADERSHIP</a>
-                        <li style="font-family: 'Adriatic_light'; font-style: normal;"><a href="#">EXPERTISE</a>
+                        <li style="font-family: 'Adriatic_light'; font-style: normal;"><a href="history.html">OUR LEADERSHIP</a>
+                        <li style="font-family: 'Adriatic_light'; font-style: normal;"><a href="services.html">EXPERTISE</a>
                            
                         </li>
 			    
-			     <li style="font-family: 'Adriatic_light'; font-style: italic;"><a href="#">INSIGHTS</a>
+			     <li style="font-family: 'Adriatic_light';"><a href="news-list.html">INSIGHTS</a>
                            
                         </li>
                         
@@ -366,10 +388,10 @@ subscribe-publications .call-to-action {
 				<div class="container">
 					<div class="col-md-12">
 						<header class="section-header" style="margin-top: 0px;">
-							<h4 class="section-header-title" id="flux" style="font-family: 'Adriatic_light'; color:#7eaab5; font-size: 25px;" >
+                            <h4 class="section-header-title" id="flux" style="font-family: 'Adriatic_light';color:#7eaab5;font-size: 25px;letter-spacing: 4px;">
                                 LATEST FROM RPLA
-                            </h4>
-						</header>
+                            </h4>					
+                    	</header>
 					</div>
 					
 				</div>
@@ -390,13 +412,13 @@ subscribe-publications .call-to-action {
 											<div id="blg1" style="background-color:#061634">
 												<div style="min-height: 260px;padding: 25px;color: #2f1a68;" >
 													<div  style="border-bottom-color: #404040;margin-bottom: -8px;"><p style="font-family: 'Adriatic_light';font-style: normal;letter-spacing: 3px;color: #ffffff;">ARTICLE</p></div>
-													<h4 style="font-family:'Playfair Display', serif;font-size: 1.20rem;line-height: 1.1em;color: #ffffff;">Conversion of convertible instruments - tax considerations.</h4>
+													<h4 style="font-family: 'Open Sans', sans-serif;font-size: 1.0rem;line-height: 1.1em;color: #ffffff;">Conversion of convertible instruments - tax considerations.</h4>
 												</div>
 											</div>
 											<div id="blg2" style="background-color:#7eaab5;">
 												<div style="min-height: 260px;padding: 25px;">
 													<div  style="border-bottom-color: #F5F5F5;margin-bottom: -8px;"><p style="font-family: 'Adriatic_light';font-style: normal;letter-spacing: 3px;color: #4d1e23;">ARTICLE</p></div>
-													<h4 style="font-family: 'Playfair Display';font-size: 1.20rem;line-height: 1.1em; color:#061634">Conversion of convertible instruments - tax considerations.</h4>
+													<h4 style="font-family: ''Open Sans'';font-size: 1.0rem;line-height: 1.1em; color:#061634">Conversion of convertible instruments - tax considerations.</h4>
 												</div>
 											</div>
 										</div>
@@ -409,13 +431,13 @@ subscribe-publications .call-to-action {
 											<div id="blg3" style="background-color:#061634;display:none">
 												<div style="min-height: 260px;padding: 25px;color: #ffffff;" >
 													<div  style="border-bottom-color: #404040;margin-bottom: -8px;"><p style="font-family: 'Adriatic_light';font-style: normal;letter-spacing: 3px;color: #ffffff;">ARTICLE</p></div>
-													<h4 style="font-family: 'Playfair Display';font-size: 1.20rem;line-height: 1.1em;color: #ffffff;">Angel Tax – Does it go too far ?</h4>
+													<h4 style="font-family: 'Open Sans';font-size: 1.0rem;line-height: 1.1em;color: #ffffff;">Angel Tax – Does it go too far?</h4>
 												</div>
 											</div>
 											<div id="blg4" style="background-color:#7eaab5;">
 												<div style="min-height: 260px;padding: 25px;">
 													<div  style="border-bottom-color: #F5F5F5;margin-bottom: -8px;"><p style="font-family: 'Adriatic_light';font-style: normal;letter-spacing: 3px;color: #4d1e23;">ARTICLE</p></div>
-													<h4 style="font-family: 'Playfair Display';font-size: 1.20rem;line-height: 1.1em;color:#061634">Angel Tax – Does it go too far ?</h4>
+													<h4 style="font-family: 'Open Sans';font-size: 1.0rem;line-height: 1.1em;color:#061634">Angel Tax – Does it go too far?</h4>
 												</div>
 											</div>
 										</div>
@@ -428,13 +450,13 @@ subscribe-publications .call-to-action {
 											<div id="blg5" style="background-color:#061634;display:none">
 												<div style="min-height: 260px;padding: 25px;color: #ffffff;" >
 													<div  style="border-bottom-color: #404040;margin-bottom: -8px;"><p style="font-family: 'Adriatic_light';font-style: normal;letter-spacing: 3px;color: #ffffff;">ARTICLE</p></div>
-													<h4 style="font-family: 'Playfair Display';font-size: 1.20rem;line-height: 1.1em;color: #ffffff;">Purchase of shares – risk of the transaction being declared ‘void’.</h4>
+													<h4 style="font-family: 'Open Sans';font-size: 1.0rem;line-height: 1.1em;color: #ffffff;">Purchase of shares – risk of the transaction being declared ‘void’.</h4>
 												</div>
 											</div>
 											<div id="blg6" style="background-color:#7eaab5;">
 												<div style="min-height: 260px;padding: 25px;">
 													<div  style="border-bottom-color: #F5F5F5;margin-bottom: -8px;"><p style="font-family:'Adriatic_light'; font-style: normal;letter-spacing: 3px;color: #4d1e23;">ARTICLE</p></div>
-													<h4 style="font-family: 'Playfair Display';font-size: 1.20rem;line-height: 1.1em;color:#061634">Purchase of shares – risk of the transaction being declared ‘void’.</h4>
+													<h4 style="font-family: 'Open Sans';font-size: 1.0rem;line-height: 1.1em;color:#061634">Purchase of shares – risk of the transaction being declared ‘void’.</h4>
 												</div>
 											</div>
 										</div>
@@ -460,24 +482,22 @@ subscribe-publications .call-to-action {
 										
 											
 											<div class="prompt">
-											<i class="fa fa-3x fa-envelope-o" aria-hidden="true" ; style = line-height:56px;></i>
-											<div style="clear:both;"></div>
-												<div style = "font-family: 'Adriatic_light'; font-size:1.1em; ">
-													Subscribe to
-													RPLA Insights
-												</div>
-											</div>
+                                            <div style="display: flex;" > 
+                                                <i class="fa fa-3x fa-envelope-o" aria-hidden="true" ; style = line-height:56px;></i>
+                                                <div style="font-family: 'Adriatic_light';font-size:1.1em;text-align: left;padding-top: 13px;padding-left: 8px; letter-spacing: 2px;">
+                                                    Subscribe to RPLA Insights
+                                                </div>                                            </div>
 										
 								</div>
 							</div>
 
 				</div>
-                <div class="spacer-20"></div>
-                <div class="spacer-20"></div>
+                <!-- <div class="spacer-20"></div>
+                <div class="spacer-20"></div> -->
                 <div class="spacer-20"></div>
 					
               	<div class="text-align-center">
-                	<h4 style="font-family: 'Adriatic_light'; font-style: normal;color: #4d1e23; font-size: 25px; " >WE ARE MINDFULL OF OUR PRACTICES</h4>
+                	<h4 style="font-family: 'Adriatic_light'; font-style: normal;color: #4d1e23; font-size: 25px; letter-spacing: 2px; " >WE ARE MINDFUL OF OUR PRACTICES</h4>
                 	<hr class="sm">
                	</div>
                 <div class="row">
@@ -486,8 +506,8 @@ subscribe-publications .call-to-action {
                             <div class="ibox-icon margin-0">
                                 <i class="icon icon-dialogue-happy"></i>
                             </div>
-                            <h3  style="font-family:'Playfair Display', serif;font-style: normal;font-weight: lighter;color: #061634;">Personalised Attention</h3>
-                            <p style="font-family:'Playfair Display', serif;font-style: normal;font-size: 13.5px;line-height: 27px;">A partner’s complete involvement in every transaction.</p>
+                            <h3  style="font-family:'Open-sans', serif', serif;font-style: normal;font-weight: lighter;color: #061634;">Personalised Attention</h3>
+                            <p style="font-family:'Open-sans', serif', serif;font-style: normal;font-size: 13.5px;line-height: 27px;">A partner’s complete involvement in every transaction.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -495,8 +515,8 @@ subscribe-publications .call-to-action {
                             <div class="ibox-icon margin-0">
                                 <i class="icon icon-music-random"></i>
                             </div>
-                            <h3 style="font-family:'Playfair Display', serif;font-style: normal;font-weight: lighter;color: #061634;">Commercial Approach</h3>
-                            <p style="font-family:'Playfair Display', serif; font-style: normal;font-size: 13.5px;line-height: 27px;">Cognizant of the business and commercial perspective.</p>
+                            <h3 style="font-family:'Open-sans', serif', serif;font-style: normal;font-weight: lighter;color: #061634;">Commercial Approach</h3>
+                            <p style="font-family:'Open-sans', serif', serif; font-style: normal;font-size: 13.5px;line-height: 27px;">Cognizant of the business and commercial perspective.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -504,8 +524,8 @@ subscribe-publications .call-to-action {
                             <div class="ibox-icon margin-0">
                                 <i class="icon icon-diamond"></i>
                             </div>
-                            <h3 style="font-family:'Playfair Display', serif;font-style: normal;font-weight: lighter;color: #061634;">Uncomplicated</h3>
-                            <p style="font-family:'Playfair Display', serif;font-style: normal;font-size: 13.5px;line-height: 27px;">Endeavour to deliver advice on complex legal issues in simple terms.</p>
+                            <h3 style="font-family:'Open-sans', serif', serif;font-style: normal;font-weight: lighter;color: #061634;">Uncomplicated</h3>
+                            <p style="font-family:'Open-sans', serif', serif;font-style: normal;font-size: 13.5px;line-height: 27px;">Endeavour to deliver advice on complex legal issues in simple terms.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6">
@@ -513,8 +533,8 @@ subscribe-publications .call-to-action {
                             <div class="ibox-icon margin-0">
                                 <i class="icon icon-check"></i>
                             </div>
-                            <h3 style="font-family: 'Playfair Display'; font-style: normal; font-weight: lighter;color: #061634;">Holistic</h3>
-                            <p style="font-family: 'Playfair Display' ;font-style: normal;font-size: 13.5px;line-height: 27px;">Blending the intricacies of legal, tax and accounting to deliver comprehensive advice.</p>
+                            <h3 style="font-family: 'Open-sans', serif'; font-style: normal; font-weight: lighter;color: #061634;">Holistic</h3>
+                            <p style="font-family: 'Open-sans', serif' ;font-style: normal;font-size: 13.5px;line-height: 27px;">Blending the intricacies of legal, tax and accounting to deliver comprehensive advice.</p>
                         </div>
                     </div>
                 </div>
@@ -744,7 +764,7 @@ subscribe-publications .call-to-action {
                     	
                         <ul>
                         	<li style="font-family: 'Adriatic_light'; font-style: normal; color: #4d1e23;">
-                                <a href="# ">OUR LEADERSHIP</a>
+                                <a href="history.html ">OUR LEADERSHIP</a>
                             </li>
                             <li style="font-family: 'Adriatic_light'; font-style: normal; color: #4d1e23;">
                                 <a href="# ">PRACTICE AREAS</a>
@@ -782,10 +802,12 @@ subscribe-publications .call-to-action {
 						<a href="#">CONTACT US</a>
 						</li>
                             <li style="font-family:Cambria, Cochin, Georgia, Times, 'Playfair Display', serif; font-style: normal;">
-                                <p style="color: #e9e1e2;">0-27A, 1 st Floor, Jangpura
+                                <p style="color: #e9e1e2;font-family: 'Open Sans';">0-27A, 1 st Floor, Jangpura
                                     Extension, New Delhi-
-                                    110014, +91 99104 32903, conatct@rpla.co.in</p>
-                            </li>
+                                    110014 <br/>
+                                    
+                                    +91 99104 32903 <br/>
+                                    contact@rpla.co.in</p>                            </li>
                             
                         </ul>
                     </div>
@@ -800,7 +822,7 @@ subscribe-publications .call-to-action {
             </div>-->
             
             <div class="footer-row2">
-                <ul class="pull-right social-icons social-icons-colored social-icons-inverted">
+                <ul class="pull-right social-icons social-icons-colored social-icons-inverted" style="margin-top: -20px;" >
                     <!--<li class="facebook"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
                     <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>-->
                     <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -808,7 +830,7 @@ subscribe-publications .call-to-action {
                 </ul>
                 <div class="row footer-widgets-area">
                     <div class="col-md-2" style="margin-left: 10px;">
-                        <div class="sidley-footer__sign-up">
+                        <div class="sidley-footer__sign-up" style="margin-top: -20px;padding-left: 10px;padding-right: 10px;" >
                             <h4 class="sidley-footer__subheader" style = "font-family:'Playfair Display';font-size:13.5px;">Keep up-to-date with RPLA</h4>
                             <a href="" class="cta-links-arrow" rel="noopener noreferrer" target="_blank" style = "color:#80bce4;font-family: 'Adriatic_light';">SIGN UP</a>
                         </div>
@@ -824,8 +846,7 @@ subscribe-publications .call-to-action {
             </div>
             <div class="footer-row3">
             	<!--<a href="home.html"><img src="images/rplaF.png" alt="" width="130" class="site-footer-logo"></a>-->
-                <p style="font-family: 'Playfair Display'; font-style: normal; color: #80bce4;letter-spacing: 0.109em;">&copy; 2020 RPLA. All Rights Reserved.</p>
-            </div>
+                <p style="font-family: 'Open Sans';font-style: normal;color: #80bce4;letter-spacing: 0.109em;">© 2020 RPLA. All Rights Reserved.</p>            </div>
         </div>
     </div>
   	<a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
@@ -903,47 +924,50 @@ $(document).ready(function(){
         
         <div class="col-lg-12">
             
-                            <img src="images/rplaFBB.png" alt="" class="default-logo" width="200" style="padding-top: 75px;padding-bottom: 75px;">
-                            
-                        </div>
-                        
-      </div>
-      <div class="modal-body text-center">
-        <div class="row">
+            <img src="images/RPLA final files/1_RPLA (light blue background transparent text).png" alt="" class="default-logo" width="160" style="padding-top: 20px;/* padding-bottom: 75px; */"> <br/>          
+            
+            <img src="images/RPLA final files/1_Full name in dark blue transparent single line.png" alt="" class="default-logo" width="800px" style="padding-top: 10px;/* padding-bottom: 5px; */max-width: 55%;">        <div class="row">
 					<div class="col-lg-12">
 						
 						
 						
 						<div class="col-lg-12" >
                             <br>
-							<p style="text-align: center;font-family: Adriatic_light;color: #103770;"><strong>USER ACKNOWLEDGEMENT</strong></p>
+                            <p style="text-align: center;font-family: Adriatic_light;color:#5a1228;margin-bottom: 15px;"><strong>USER ACKNOWLEDGEMENT</strong></p>
 
-<ul style="text-align: justify; color:#7eaab5; font-family: 'Playfair Display';font-size: 86.667%;">
-<li>The user wishes to gain more information about Ravi Prakash Law Advisors LLP (RPLA), its practice areas and its attorneys, for his/her own information and use.</li>
-<li>There has been no solicitation, invitation or inducement of any sort whatsoever from RPLA or any of its members to create an Attorney-Client relationship through this website.</li>
-<li>The information is made available/provided to the user only on his/her specific request and any information obtained or material downloaded from this website is completely at the user&rsquo;s volition and any transmission, receipt or use of this site is not intended to, and will not, create any lawyer-client relationship.</li>
-<li>None of the information contained on the website is in the nature of a legal opinion or otherwise amounts to any legal advice. RPLA further assumes no liability for the interpretation and/or use of the information contained on this website nor does it offer a warranty of any kind, either expressed or implied.</li>
-<li>This website is not intended to be a source of advertising or solicitation and the contents of the website should not be construed as legal advice. The reader should not consider this information to be an invitation for a lawyer-client relationship and should not rely on information provided herein and should always seek independent legal advice.&nbsp;&nbsp;&nbsp;&nbsp; </li>
-</ul>
-<p style="text-align: justify;color:#7eaab5;font-family: 'Playfair Display';font-size: 86.667%;">I further acknowledge having read and understood the Disclaimer below.</p>
-<p style="text-align: center;font-family: Adriatic_light;color:#103770;"><strong>DISCLAIMER</strong></p>
-<p style="text-align: justify;color:#7eaab5;font-family: 'Playfair Display'; font-size: 86.667%;">This website (<a href="http://www.raviprakash.org" data-saferedirecturl="https://www.google.com/url?q=http://www.raviprakash.org&amp;source=gmail&amp;ust=1601073573121000&amp;usg=AFQjCNGWIAx_ZoCdr1YSNbnm8ieb0s6cpA">www.raviprakash.org</a>) is for informational purposes only and is intended, but not promised or guaranteed, to be correct, complete, and up-to-date. RPLA does not warrant that the information contained on this website is accurate or complete, and hereby disclaims any and all liability to any person for any loss or damage caused by errors or omissions, whether such errors or omissions result from negligence, accident or any other cause.</p>
-							
-						</div>	
+                            <ul style="text-align: justify;color: #103770;font-family: 'Open Sans', sans-serif;font-size: 86.667%;"><li>The user wishes to gain more information about Ravi Prakash Law Advisors LLP (RPLA), its practice areas and its attorneys, for his/her own information and use.</li>
+                                <li>There has been no solicitation, invitation or inducement of any sort whatsoever from RPLA or any of its members to create an Attorney-Client relationship through this website.</li>
+                                <li>The information is made available/provided to the user only on his/her specific request and any information obtained or material downloaded from this website is completely at the user&rsquo;s volition and any transmission, receipt or use of this site is not intended to, and will not, create any lawyer-client relationship.</li>
+                                <li>None of the information contained on the website is in the nature of a legal opinion or otherwise amounts to any legal advice. RPLA further assumes no liability for the interpretation and/or use of the information contained on this website nor does it offer a warranty of any kind, either expressed or implied.</li>
+                                <li>This website is not intended to be a source of advertising or solicitation and the contents of the website should not be construed as legal advice. The reader should not consider this information to be an invitation for a lawyer-client relationship and should not rely on information provided herein and should always seek independent legal advice.&nbsp;&nbsp;&nbsp;&nbsp; </li>
+                                </ul>
+                                <p style="text-align: center;font-family: Adriatic_light;color:#5a1228;margin-bottom: 10px;margin-top: 12px;"><strong>DISCLAIMER</strong></p>
+
+
+                                <p style="text-align: justify;color: #103770;font-family: 'Open Sans', sans-serif;font-size: 86.667%;margin-bottom: 0px;">This website (<a style="color: #5a1228;" href="http://www.raviprakash.org" data-saferedirecturl="https://www.google.com/url?q=http://www.raviprakash.org&amp;source=gmail&amp;ust=1601073573121000&amp;usg=AFQjCNGWIAx_ZoCdr1YSNbnm8ieb0s6cpA">www.raviprakash.org</a>) is for informational purposes only and is intended, but not promised or guaranteed, to be correct, complete, and up-to-date. RPLA does not warrant that the information contained on this website is accurate or complete, and hereby disclaims any and all liability to any person for any loss or damage caused by errors or omissions, whether such errors or omissions result from negligence, accident or any other cause.</p>						</div>	
 					</div>
 			</div>
       </div>
-      <div class="modal-footer">
+      <div  class="modal-footer" style="
+      padding-top: 0px;
+      padding-bottom: 0px;
+  " >
       <div class="col-lg-12">
           <br>
-								<p style="text-align: justify; color:#103770;font-family: 'Playfair Display'; font-size: 86.667%;">By proceeding further and clicking on the "AGREE" button herein below, the user acknowledges that the user acknowledges the following:</p>
+								<p style="text-align: justify; color:#5a1228;font-family: 'Open Sans', sans-serif;; font-size: 86.667%;">By proceeding further and clicking on the "AGREE" button herein below, the user acknowledges the following:</p>
+     
 
-								<div style="float: left;">
-									<button class="btn btn-primary" data-dismiss="modal" style="background-color:#103770; font-family: Adriatic_light;" >I AGREE</button>
-								</div>
-								<div style="float: left;margin-left: 15px;">
-									<button class="btn btn-primary" href="#" style="background-color:#103770; font-family: Adriatic_light;" >I DISAGREE</button>
-								</div>
+                                <div style="text-align: center;">
+                                    <div style="/* float: left; */display: inline-block;">
+                                        <button class="btn btn-primary" data-dismiss="modal" style="background-color:#103770;font-family: Adriatic_light;padding-right: 28px;padding-left: 28px;">I AGREE </button>
+                                    </div>
+                                    <div style="/* float: left; */margin-left: 15px;display: inline-block;">
+                                        <button class="btn btn-primary" href="#" style="background-color:#103770; font-family: Adriatic_light;">I DISAGREE</button>
+                                    </div>
+                
+                
+                                </div>
+
 							</div>
       </div>
     </div>
