@@ -2230,7 +2230,7 @@ body.boxed .body{
 	font-size:14px;
 }
 .site-footer .footer_widget a, .site-footer a{
-	color:#858e97;
+	color:white;
 }
 .site-footer .footer_widget a:hover, .site-footer a:hover{
 	color:#fff;
